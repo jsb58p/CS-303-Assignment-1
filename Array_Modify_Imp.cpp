@@ -112,14 +112,3 @@ void Array_Modify::removeNum(size_t index) {
 	}
 	maxIndex--;		//decrement maxIndex to account for 1 less element
 }
-
-void Array_Modify::showArray() const {
-	for (int i = 0; i <= maxIndex; i++) {	//outputs the elements of the array
-		if (i % 10 == 0) {					//10 elements per row
-			cout << endl;
-		}
-		cout << setw(5) << left << numbers[i];
-	}
-	cout << endl;
-
-}
