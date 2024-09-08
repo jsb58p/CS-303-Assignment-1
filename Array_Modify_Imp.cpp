@@ -76,7 +76,6 @@ int* Array_Modify::modifyNum(size_t index, int newValue) {
 	if (index<0 || index>maxIndex) {
 		throw out_of_range("In function modifyNum, the value of index is out of range.");
 	}
-	int numSwap[2];	//creates new array size 2 for storing new value and old value
 	numSwap[0] = newValue;	//first element contains new value
 	numSwap[1] = numbers[index];	//second element contains old value
 	numbers[index] = newValue; //assigns new value to the chosen array element
