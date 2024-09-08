@@ -29,9 +29,9 @@ Array_Modify(string file) {
 		fileName = file;
 		initializeArray();
 	}
-	~Array_Modify() {
-		delete[] numbers;
-	}
+~Array_Modify() {
+	delete[] numbers;
+}
 private:
 	fstream inputFile;
 	string fileName = "A1input.txt"; //identifier for the file being accessed and modified
