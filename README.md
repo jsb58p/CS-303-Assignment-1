@@ -137,7 +137,7 @@ Index of array element to be removed.
 **Line 8 contains a call to the function findNum(). Parameter 1 is passed to findNum() by the user. Parameter 2 defaults to the integer 1. An element containing the integer 5 occurs the first time at index 4. Therefore, the output is 4.**
 
 ---
-2. **Line 8 contains the same function, but now Parameter 1 is being passed an integer value (0) that does not exist in the array.**
+2. **Line 8 contains the function findNum(), but Parameter 1 is being passed an integer value (0) that does not exist in the array.**
 <img width="576" alt="findNum2" src="https://github.com/user-attachments/assets/3286c51c-0c77-4963-b7cf-10b93a38f8cd">
 
 
