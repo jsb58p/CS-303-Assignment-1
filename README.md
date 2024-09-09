@@ -86,11 +86,11 @@ the array and returns a pointer to the new value and old value. Old value and ne
 Dereferencing the function when calling will return the new value. 
 
 Parameter 1: size_t
--
+---
 Index of integer being modified.
 
 Parameter 2: int
--
+---
 New integer value to replace the integer at the index provided by Parameter 1.
 
 *Exception thrown if parameter 1 is not a valid index*
@@ -106,7 +106,7 @@ A function that adds a new integer to the end of the array.
 -Expands size of array if necessary to add new integer.
 
 Parameter 1: int
--
+---
 Integer to be added to the end of the array.
 
 ---
