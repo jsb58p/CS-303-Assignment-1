@@ -13,12 +13,12 @@
 # 2
 -Main function must contain:
 
-#include "Array_Modify.h"   //included header file  
+    #include "Array_Modify.h"   //included header file  
 
 
 -Include the following for input/output to console:
 
-#include < iostream >
+    #include < iostream >
 
 
 
