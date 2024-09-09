@@ -38,7 +38,7 @@ private:
 	int maxIndex; //contains the number of elements in the array (minus 1)
 	int capacity = 10; //array capacity, default 10
 	int* numbers;//points to array gathered from input file
-	int numSwap[2];	//array size 2 for storing new value and old value
+	int numSwap[2];	//array size 2 for storing new value and old value from function modifyNum
 };
 
 #endif
