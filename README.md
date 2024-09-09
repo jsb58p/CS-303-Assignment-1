@@ -25,7 +25,7 @@
 -In order to handle exceptions thrown by class member functions, main function should include try/catch block:
 
         try{
-        //this is where member functions should be called
+        /*this is where member functions should be called*/
         }
         catch(std::out_of_range& ex){
         std::cerr << "Out of range exception has ocurred" << std::endl;
