@@ -138,5 +138,6 @@ Index of array element to be removed.
 
 2. **Line 8 contains the same function, but now Parameter 1 is being passed an integer value (0) that does not exist in the array.**
 <img width="576" alt="findNum2" src="https://github.com/user-attachments/assets/62bb51aa-d5b3-4e56-9ee3-e55087579cb3">
+
 **Since the value being searched does not exist in the array, the value returned is -1**
 
