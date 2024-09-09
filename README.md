@@ -10,8 +10,8 @@
 
 # 2
 -Main function must contain:
-#include <iostream>       //for input/output to console
-#include "Array_Modify.h" //included header file  
+#include iostream      for input/output to console
+#include "Array_Modify.h" included header file  
 
 
 
