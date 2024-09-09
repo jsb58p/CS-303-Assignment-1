@@ -3,6 +3,7 @@
 1. Download/Copy Files
 2. Set up Main function
 3. Run the code
+4. Function Descriptions
 
 
 # 1. Download/Copy Files
@@ -51,8 +52,9 @@ After all previous steps have been completed, the user may use the object to acc
 Functions can be called within the try/catch block to handle out_of_range exceptions.
 
 
--Example 1
+# 4. Function Descriptions
 
+		int findNum(int, int position = 1);
 	
 
 
