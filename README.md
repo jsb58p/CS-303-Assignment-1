@@ -18,7 +18,7 @@
 
 -Include the following preprocessor directive for input/output to console:
 
-    #include < \biostream\b >
+    #include `<iostream>`
 
 
 
