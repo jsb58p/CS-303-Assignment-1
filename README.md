@@ -8,12 +8,12 @@
 
 
 # 1. Download/Copy Files
--Download or copy the Array_Modify.h and Array_Modify_Imp.cpp into the repository where the project running this program is stored.
+- Download or copy the Array_Modify.h and Array_Modify_Imp.cpp into the repository where the project running this program is stored.
 
--Ensure that the input file is also in the repository.
+- Ensure that the input file is also in the repository.
 
 # 2. Set up Main function
--Main function must contain the following preprocessor directive for access to program:
+- Main function must contain the following preprocessor directive for access to program:
 
     #include "Array_Modify.h"     
 
