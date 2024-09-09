@@ -178,5 +178,8 @@ Index of array element to be removed.
    **Line 10 uses the function findNum() to output the index of the first integer 5 in the array.**
 <img width="576" alt="addNummodifyNumfindNum1" src="https://github.com/user-attachments/assets/5513093c-e565-49b7-8017-4c59920b949c">
 
-**HELLO**
+
+   **The output**
+
+
 	
