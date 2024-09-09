@@ -7,18 +7,18 @@
 
 # 1
 -Download or copy the Array_Modify.h and Array_Modify_Imp.cpp into the repository where the project running this program is stored.
-
+-
 -Ensure that the input file is also in the repository.
-
+-
 # 2
 -Main function must contain the following preprocessor directive for access to program:
-
+-
     #include "Array_Modify.h"     
 
 
 
 -Include the following preprocessor directive for input/output to console:
-
+-
     #include <iostream>
 
 
@@ -35,10 +35,10 @@
 
 # 3
 -Declare an object of type Array_Modify:
+-
+The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the file being used. Make sure to include the .txt extension.
 
-	The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the file being used. Make sure to include the .txt extension.
-
-	Below is an example of declaring an object of type Array_Modify with a parameter, then an example of declaring the object without a parameter:
+Below is an example of declaring an object of type Array_Modify with a parameter, then an example of declaring the object without a parameter:
 		
   		Array_Modify numArray("A1input.txt"); //parameter
 
