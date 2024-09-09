@@ -179,7 +179,9 @@ Index of array element to be removed.
 <img width="576" alt="addNummodifyNumfindNum1" src="https://github.com/user-attachments/assets/5513093c-e565-49b7-8017-4c59920b949c">
 
 
-   **The output**
+   **The output from line 9 is 2. This is the old value at the index 1 before the modifyNum() function was called. The new value is 5**
+
+   **The output from line 10 is 1. After modifying the the value at index 1 to hold integer 5, the first position to hold integer 5 is at index 1.**
 
 
 	
