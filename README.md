@@ -84,6 +84,16 @@ the array and returns a pointer to the new value and old value. Old value and ne
 -Use subscript operator, **[]**, on the function to return new or old value. [0] returns the new value, [1] returns the old value. Using the function without the subscript operator will return the memory location of the array.
 Dereferencing the function when calling will return the new value. 
 
+Parameter 1: size_t
+-
+Index of integer being modified.
+
+Parameter 2: int
+-
+New value to replace the value at the index provided by Parameter 1.
+
+-Exception thrown if parameter 1 is not a valid index position.
+
 
 
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
