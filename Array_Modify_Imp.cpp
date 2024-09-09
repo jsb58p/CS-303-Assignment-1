@@ -21,7 +21,7 @@ void Array_Modify::initializeArray() {
 		if (inputFile.peek() == ' ' || inputFile.peek() == '\n' || inputFile.peek() == '\r') {
 			numbers[maxIndex] = value;		//assigns the current integer from "value" to the element at maxIndex
 			value = 0;					//resets value to 0 in preparation for next element.
-			inputFile.ignore(1, ' ');   //ignore the space between current and next integer
+			inputFile.ignore(2, ' ');   //ignore the space between current and next integer
 			
 			maxIndex++;	//once the end of an integer has been reached, the maxIndex, counting the number of integers
 
