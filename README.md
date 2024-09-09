@@ -24,7 +24,7 @@
 
     	#include <iostream>
 
-- Declare an object of type Array_Modify:
+- Declare an object of type Array_Modify inside main function:
 
 The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the file being used. Make sure to include the .txt extension.
 
