@@ -53,7 +53,7 @@ Below is an example of declaring an object (numArray) of type Array_Modify with 
 
 After all previous steps have been completed, the user may use the object to access class member functions.
 -
-Functions must be called within main function, and can be called within the try/catch block to handle out_of_range exceptions.
+Functions can be called within the try/catch block to handle out_of_range exceptions.
 
 
 # 4. Function Descriptions
