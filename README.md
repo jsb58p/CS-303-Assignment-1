@@ -167,3 +167,8 @@ Index of array element to be removed.
    **The output is 99 because the function addNum() added the integer 5 to the end of the array, at index 100. Then the function removeNum() removes the element at index 4, which held the integer 5. All array elements after index 4 shift down one index.**
 
    **When function findNum() executes, the only integer 5 currently in the array is the result of the function addNum(). Since the array elements were shifted down as part of the function removeNum(), the integer 5 is found at index 99.**
+
+---
+6. **LIne**
+<img width="576" alt="addNummodifyNumfindNum1" src="https://github.com/user-attachments/assets/5513093c-e565-49b7-8017-4c59920b949c">
+
