@@ -7,11 +7,12 @@
 
 # 1
 -Download or copy the Array_Modify.h and Array_Modify_Imp.cpp into the repository where the project running this program is stored.
+-Ensure that the input file is also in the repository.
 
 # 2
 -Main function must contain:
 
-#include <iostream >        //for input/output to console
+#include < iostream >        //for input/output to console
 
 #include "Array_Modify.h"   //included header file  
 
