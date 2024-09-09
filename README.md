@@ -130,5 +130,7 @@ Index of array element to be removed.
 ---
 
 # 5. Examples
+
+**The following example shows how the main file should be set up, how an object can be declared, and how a function can be called within the try/catch block.**
 <img width="1152" alt="1" src="https://github.com/user-attachments/assets/36416916-abdc-4c19-b6f3-a885335e083c">
 
