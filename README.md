@@ -54,6 +54,7 @@ Functions can be called within the try/catch block to handle out_of_range except
 
 
 # 4. Function Descriptions
+**findNum**
 
 		int findNum(int, int position = 1);
 	
