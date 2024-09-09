@@ -143,8 +143,8 @@ Index of array element to be removed.
 **Since the value being searched does not exist in the array, the value returned is -1**
 
 ---
-3. **Line 8 contains the function findNum(). Parameter 1 passed by the user is a value that exists in the array. Parameter 2, passed by the user, is invalid because the value 5 only exists in 1 position in the array.**
+3. **Line 8 contains the function findNum(). Parameter 1 passed by the user is a value that exists in the array. Parameter 2, passed by the user, is invalid because the integer 5 only exists in 1 position in the array.**
 <img width="576" alt="findNum3" src="https://github.com/user-attachments/assets/3b30c2b2-76fe-44c1-9f45-a194e5efde96">
 
-**Since 5 only exists in one index of the array, the second index for 5 cannot be found. Therefore, the function returns -1.**
+**Since integer 5 only exists in one index of the array, the second index for 5 cannot be found. Therefore, the function returns -1.**
 
