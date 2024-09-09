@@ -68,9 +68,6 @@ int* Array_Modify::modifyNum(size_t index, int newValue) {
 	numSwap[0] = newValue;	//first element contains new value
 	numSwap[1] = numbers[index];	//second element contains old value
 	numbers[index] = newValue; //assigns new value to the chosen array element
-	//cout << endl << "Old Value: " << numSwap[1]
-	//	<< endl << "New Value: " << numSwap[0]
-	//	<< endl;
 	return numSwap;			//returns pointer to the array containing the new and old value
 }
 
