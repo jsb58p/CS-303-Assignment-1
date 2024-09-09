@@ -21,7 +21,7 @@ void Array_Modify::initializeArray() {
 			delete[] temp; //delete the old array
 		}
 		/*statement to detect spaces, which indicates the end of an integer*/
-		if (inputFile.peek() == ' ' || inputFile.peek() == '\n') {
+		if (inputFile.peek() == ' ' || inputFile.peek() == '\n' || inputFile.peek() == '\r' {
 			numbers[maxIndex] = value;		//assigns the current integer from "value" to the element at maxIndex
 			value = 0;					//resets value to 0 in preparation for next element.
 			inputFile.ignore(1, ' ');   //ignore the space between current and next integer
