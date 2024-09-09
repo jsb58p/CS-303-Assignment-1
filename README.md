@@ -11,12 +11,12 @@
 -Ensure that the input file is also in the repository.
 
 # 2
--Main function must contain:
+-Main function must contain the following preprocessor directive for access to program:
 
-    #include "Array_Modify.h"   //included header file  
+    #include "Array_Modify.h"     
 
 
--Include the following for input/output to console:
+-Include the following preprocessor directive for input/output to console:
 
     #include < iostream >
 
