@@ -56,8 +56,23 @@ Functions can be called within the try/catch block to handle out_of_range except
 # 4. Function Descriptions
 
 		int findNum(int, int position = 1);
-	A function to check if a certain integer exists in the array if the number is present return the
-index where the number is present.
+	
+-A function to check if a certain integer exists in the array. If the number is present, returns the
+index where the number is present. If the number is not present, returns -1.
+
+-Parameter 1: int
+
+Integer to be searched for.
+
+-Parameter 2: int
+
+Integer representing the repition of the integer is being searched for. Default is 1. If there are n array elements containing the value from Parameter 1, then passing n for the second parameter will return
+
+the index of the nth Parameter 1 value. If the value from Paramter 1 is not found, or the value passed for Parameter 2 is greater than n, then function returns -1.
+
+-Exception thrown if Parameter 2 is outside the bounds of possiblility (Parameter 2 is less than 1 or Parameter 2 is greater than the maximum size of the array). 
+
+
 
 
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
