@@ -5,12 +5,12 @@
 3. Run the code
 
 
-# 1
+# 1 Download/Copy Files
 -Download or copy the Array_Modify.h and Array_Modify_Imp.cpp into the repository where the project running this program is stored.
 
 -Ensure that the input file is also in the repository.
 
-# 2
+# 2 Set up Main function
 -Main function must contain the following preprocessor directive for access to program:
 
     #include "Array_Modify.h"     
@@ -33,7 +33,7 @@
 		abort();
         }
 
-# 3
+# 3 Run the code
 -Declare an object of type Array_Modify:
 
 The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the file being used. Make sure to include the .txt extension.
