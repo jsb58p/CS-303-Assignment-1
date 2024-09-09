@@ -24,7 +24,11 @@ public:
 	/*Intakes index of an array and 
 	removes the integer at that index*/
 
-Array_Modify(std::string file) {
+Array_Modify() {			//constructor with no parameters
+		initializeArray();
+	}
+
+Array_Modify(std::string file) {	//constructor with file name string as parameter
 		fileName = file;
 		initializeArray();
 	}
