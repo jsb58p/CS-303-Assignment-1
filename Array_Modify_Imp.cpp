@@ -1,6 +1,3 @@
-#include <iostream> 
-#include <fstream>
-#include <string>
 #include "Array_Modify.h"
 
 void Array_Modify::initializeArray() {
@@ -63,7 +60,7 @@ int Array_Modify::findNum(int integer, int position) const {
 
 int* Array_Modify::modifyNum(size_t index, int newValue) {
 	if (index<0 || index>maxIndex) {
-		throw out_of_range("In function modifyNum, the value of index is out of range.");
+		throw std::out_of_range("In function modifyNum, the value of index is out of range.");
 	}
 	numSwap[0] = newValue;	//first element contains new value
 	numSwap[1] = numbers[index];	//second element contains old value
@@ -90,7 +87,7 @@ void Array_Modify::addNum(int numAdded) {
 
 void Array_Modify::removeNum(size_t index) {
 	if (index<0 || index>maxIndex) {
-		throw out_of_range("In function removeNum, the value of index is out of range.");
+		throw std::out_of_range("In function removeNum, the value of index is out of range.");
 	}
 	while (index <= maxIndex) {
 		numbers[index] = numbers[index + 1];	//shifts array elements down one index, starting with the one being removed
