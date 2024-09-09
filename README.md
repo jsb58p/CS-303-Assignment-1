@@ -81,7 +81,7 @@ the index of the nth Parameter 1 value. If the value from Paramter 1 is not foun
 A function that can modify the value of an integer when called with the index of the integer in
 the array and returns a pointer to the new value and old value. Old value and new value are stored in a class member array of size 2.
 
--Use subscript operator, **[]**, containing a valid value, on the function to return new or old value. [0] returns the new value, [1] returns the old value. Using the function without the subscript operator will return the memory location of the array.
+-Use subscript operator, **[0]** or **[1]**, containing a valid value, on the function to return new or old value. **[0]** returns the new value, **[1]** returns the old value. Using the function without the subscript operator will return the memory location of the array.
 Dereferencing the function when calling will return the new value. 
 
 Parameter 1: size_t
