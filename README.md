@@ -70,6 +70,7 @@ Parameter 2: int
 Integer representing the repition of the integer being searched for. Default is 1. If there are n array elements containing the value from Parameter 1, then passing n for the second parameter will return
 the index of the nth Parameter 1 value. If the value from Paramter 1 is not found, or the value passed for Parameter 2 is greater than n, then function returns -1.
 
+---
 **Exception thrown if Parameter 2 is outside the bounds of possiblility (Parameter 2 is less than 1 or Parameter 2 is greater than the maximum size of the array).**
 
 ---
@@ -92,6 +93,7 @@ Parameter 2: int
 -
 New value to replace the value at the index provided by Parameter 1.
 
+---
 **Exception thrown if parameter 1 is not a valid index position.**
 
 
