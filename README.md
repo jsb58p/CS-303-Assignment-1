@@ -148,3 +148,8 @@ Index of array element to be removed.
 
 **Since integer 5 only exists in one index of the array, the second index for 5 cannot be found. Therefore, the function returns -1.**
 
+---
+4. **Line 8 contains the function addNum(). Parameter 1 passed by the user is the integer to be added to the end of the array.**
+
+   **Line 9 contains the function findNum(). Parameter 1 passed by the user is a value that exists in the array. Parameter 2, passed by the user, is valid because the integer 5 exists in 2 positions in the array after executing line 8.**
+   <img width="576" alt="addNumfindNum1" src="https://github.com/user-attachments/assets/8acb3014-8a66-4f05-a8a1-ff2895b4c1f4">
