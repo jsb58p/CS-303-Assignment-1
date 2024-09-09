@@ -133,6 +133,7 @@ Index of array element to be removed.
 
 1. **The following example shows how the main file should be set up, how an object can be declared, and how a function can be called within the try/catch block.**
 <img width="1152" alt="1" src="https://github.com/user-attachments/assets/36416916-abdc-4c19-b6f3-a885335e083c">
+
 **Line 8 contains a call to the function findNum(). Parameter 1 is passed to findNum() by the user. Parameter 2 defaults to the integer 1. An element containing the integer 5 occurs the first time at index 4. Therefore, the output is 4.**
 
 2. **Line 8 contains the same function, but now Parameter 1 is being passed an integer value (0) that does not exist in the array.**
