@@ -96,6 +96,20 @@ New value to replace the value at the index provided by Parameter 1.
 
 *Exception thrown if parameter 1 is not a valid index position.*
 
+---
+---
+**addNum()**
 
+		void addNum(int);
 
+A function that adds a new integer to the end of the array.
+
+-Expands size of array if necessary to add new integer.
+
+Parameter 1: int
+-
+Integer to be added to the end of the array.
+
+---
+---
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
