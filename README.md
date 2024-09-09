@@ -12,7 +12,6 @@
 
 - Ensure that the input file is also in the repository.
 
-# 2. Set up Main function
 - Main function must contain the following preprocessor directive for access to program:
 
     	#include "Array_Modify.h"     
@@ -22,6 +21,9 @@
 - Include the following preprocessor directive for input/output to console:
 
     	#include <iostream>
+
+# 2. Set up Main function
+
 
 - Declare an object of type Array_Modify:
 
