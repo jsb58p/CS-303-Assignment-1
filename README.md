@@ -21,6 +21,16 @@
 
     #include <iostream>
 
+-Declare an object of type Array_Modify:
+
+The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the file being used. Make sure to include the .txt extension.
+
+Below is an example of declaring an object, called numArray, of type Array_Modify with a parameter, then an example of declaring the object without a parameter:
+		
+  		Array_Modify numArray("A1input.txt"); //parameter
+
+  		Array_Modify numArray; 		//no parameter, will use "A1input.txt" by default
+
 
 -In order to handle exceptions thrown by class member functions, main function should include try/catch block:
 
@@ -34,18 +44,9 @@
         }
 
 # 3. Run the code
--Declare an object of type Array_Modify:
-
-The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the file being used. Make sure to include the .txt extension.
-
-Below is an example of declaring an object, called numArray, of type Array_Modify with a parameter, then an example of declaring the object without a parameter:
-		
-  		Array_Modify numArray("A1input.txt"); //parameter
-
-  		Array_Modify numArray; 		//no parameter, will use "A1input.txt" by default
 
 
--Now that the Main function has been setup and an object of type Array_Modify has been declared, the memeber functions can be used.
+-After all previous steps have been completed, the program can be used
 -
 
 
