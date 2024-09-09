@@ -72,6 +72,9 @@ the index of the nth Parameter 1 value. If the value from Paramter 1 is not foun
 -Exception thrown if Parameter 2 is outside the bounds of possiblility (Parameter 2 is less than 1 or Parameter 2 is greater than the maximum size of the array). 
 
 
+	
+		int* modifyNum(size_t, int);
+
 
 
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
