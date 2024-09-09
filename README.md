@@ -39,7 +39,8 @@
 The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the file being used. Make sure to include the .txt extension.
 
 Below is an example of declaring an object of type Array_Modify with an without a parameter:
-		Array_Modify numArray("A1input.txt"); //parameter
+		
+  		Array_Modify numArray("A1input.txt"); //parameter
 
   		Array_Modify numArray; 		//no parameter
 
