@@ -93,8 +93,7 @@ Parameter 2: int
 -
 New integer value to replace the integer at the index provided by Parameter 1.
 
-
-*Exception thrown if parameter 1 is not a valid index position.*
+*Exception thrown if parameter 1 is not a valid index*
 
 ---
 ---
@@ -121,4 +120,6 @@ A function which intakes an index of an array and removes the integer at that in
 Parameter 1: size_t
 -
 Index of array element to be removed.
+
+*Exception thrown if Parameter 1 is not a valid index*
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
