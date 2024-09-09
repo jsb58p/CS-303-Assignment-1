@@ -153,3 +153,5 @@ Index of array element to be removed.
 
    **Line 9 contains the function findNum(). Parameter 1 passed by the user is a value that exists in the array. Parameter 2, passed by the user, is valid because the integer 5 exists in 2 positions in the array after executing line 8.**
 <img width="584" alt="addNumfindNum1" src="https://github.com/user-attachments/assets/8acb3014-8a66-4f05-a8a1-ff2895b4c1f4">
+
+**Returns 100, because that is the index position of the 2nd integer 5.**
