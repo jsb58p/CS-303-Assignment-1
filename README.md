@@ -23,7 +23,7 @@
 
     #include <iostream>
 
--Declare an object of type Array_Modify:
+- Declare an object of type Array_Modify:
 
 The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the file being used. Make sure to include the .txt extension.
 
@@ -36,7 +36,7 @@ Below is an example of declaring an object (numArray) of type Array_Modify with 
   		Array_Modify numArray; 		//no parameter, will use "A1input.txt" by default
 
 
--In order to handle out_of_range exceptions thrown by class member functions whose parameters may be invalid, main function should include try/catch block:
+- In order to handle out_of_range exceptions thrown by class member functions whose parameters may be invalid, main function should include try/catch block:
 
         try{
         /*this is where member functions should be called*/
@@ -84,7 +84,7 @@ the index of the nth Parameter 1 value. If the value from Paramter 1 is not foun
 A function that can modify the value of an integer when called with the index of the integer in
 the array and returns a pointer to the new value and old value. Old value and new value are stored in a class member array of size 2.
 
--Use subscript operator, **[0]** or **[1]**, on the function to return new or old value. **[0]** returns the new value, **[1]** returns the old value. Using the function without the subscript operator will return the memory location of the array.
+- Use subscript operator, **[0]** or **[1]**, on the function to return new or old value. **[0]** returns the new value, **[1]** returns the old value. Using the function without the subscript operator will return the memory location of the array.
 Dereferencing the function when calling will return the new value. 
 
 Parameter 1: size_t
@@ -105,7 +105,7 @@ New integer value to replace the integer at the index provided by Parameter 1.
 
 A function that adds a new integer to the end of the array.
 
--Expands size of array if necessary to add new integer.
+- Expands size of array if necessary to add new integer.
 
 Parameter 1: int
 -
