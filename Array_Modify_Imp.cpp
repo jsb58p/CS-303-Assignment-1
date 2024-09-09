@@ -44,32 +44,21 @@ void Array_Modify::initializeArray() {
 	}
 }
 
-int* Array_Modify::findNum(int integer) const {
-	int listIndex = 0;		//index for array of found integers
-	int listCapacity = 10;	//initial capacity of array
-	int* listArray = new int[listCapacity];
-	//cout << endl << integer << " is found at index: " << endl;
+int Array_Modify::findNum(int integer, int position) const {
+    if (position<1 || position>maxIndex) {
+		throw std::out_of_range("In function findNum, the value of position is out of range.");
+	}
+	int numPosition = 0;	//counts number of times the entered integer has been found
 	for (int i = 0; i <= maxIndex; i++) {	//iterates through array
 		if (numbers[i] == integer) {		//detects when the value of the current array element is equal to the integer being searched
-			//cout << i << endl;
-			listArray[listIndex] = i;
-			listIndex++;
-			if (listIndex + 1 == listCapacity) { //checks if array has been filled
-				int* temp = listArray;	//pointer to temporarily hold location of old array while elements are copied to new array
-				listCapacity *= 2;			//increase capacity for creation of new array
-				listArray = new int[listCapacity];
-				for (int i = 0; i < listIndex; i++) {	//placing values in new array
-					listArray[i] = temp[i];
-				}
-				delete[] temp; //delete the old array
+			numPosition++;
+			if(numPosition == position){    //if numPosition has incremented to equal the 
+			    return i;
 			}
 		}
 	}
-	if (listIndex == 0) {			//statement handles situation where no number is found
-		listArray[0] = -1;
-		//cout << endl << integer << " was not found in the array." << endl;
-	}
-	return listArray;
+	
+	return -1; //return -1 if integer is not found
 }
 
 int* Array_Modify::modifyNum(size_t index, int newValue) {
