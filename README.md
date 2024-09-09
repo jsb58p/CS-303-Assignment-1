@@ -31,6 +31,8 @@ Below is an example of declaring an object (numArray) of type Array_Modify with 
 		
   		Array_Modify numArray("A1input.txt"); //parameter
 
+-
+
   		Array_Modify numArray; 		//no parameter, will use "A1input.txt" by default
 
 
