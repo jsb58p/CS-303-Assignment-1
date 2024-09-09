@@ -16,10 +16,18 @@
     #include "Array_Modify.h"     
 
 
+
 -Include the following preprocessor directive for input/output to console:
 
     #include <iostream>
 
+
+-In order to handle exceptions thrown by class member functions, main function should include try/catch block:
+
+        try{
+        }
+
+# 3
 
 
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
