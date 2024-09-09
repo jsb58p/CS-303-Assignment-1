@@ -1,7 +1,7 @@
 # CS-303-Assignment-1
 
 1. Download/Copy Files
-2. Set up Main function
+2. Set up/Main function
 3. Run the code
 4. Function Descriptions
 5. Examples
@@ -12,18 +12,17 @@
 
 - Ensure that the input file is also in the repository.
 
-- Main function must contain the following preprocessor directive for access to program:
+
+# 2. Set up/Main function
+- Main file must contain the following preprocessor directive for access to program:
 
     	#include "Array_Modify.h"     
 
 
 
-- Include the following preprocessor directive for input/output to console:
+- Include the following preprocessor directive in main file for input/output to console:
 
     	#include <iostream>
-
-# 2. Set up Main function
-
 
 - Declare an object of type Array_Modify:
 
