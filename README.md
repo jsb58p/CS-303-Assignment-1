@@ -34,8 +34,9 @@
         }
 
 # 3
--Declare an object of type Array_Modify
--
--By default
+-Declare an object of type Array_Modify:
+
+The default constructor will use "A1input.txt" for the array initialization. To use a different file, use a string parameter when declaring the object to specify the other file. Make sure to include the .txt extension.
+
 
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
