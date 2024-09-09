@@ -64,12 +64,12 @@ Functions can be called within the try/catch block to handle out_of_range except
 A function to check if a certain integer exists in the array. If the number is present, returns the
 index where the number is present. If the number is not present, returns -1.
 
-Parameter 1: int
--
+**Parameter 1: int**
+
 Integer to be searched for.
 
-Parameter 2: int
--
+**Parameter 2: int**
+
 Integer representing the repition of the integer being searched for. Default is 1. If there are n array elements containing the value from Parameter 1, then passing n for the second parameter will return
 the index of the nth Parameter 1 value. If the value from Paramter 1 is not found, or the value passed for Parameter 2 is greater than n, then function returns -1.
 
@@ -88,12 +88,12 @@ the array and returns a pointer to the new value and old value. Old value and ne
 - Use subscript operator, **[0]** or **[1]**, on the function to return new or old value. **[0]** returns the new value, **[1]** returns the old value. Using the function without the subscript operator will return the memory location of the array.
 Dereferencing the function when calling will return the new value. 
 
-Parameter 1: size_t
--
+**Parameter 1: size_t**
+
 Index of integer being modified.
 
-Parameter 2: int
--
+**Parameter 2: int**
+
 New integer value to replace the integer at the index provided by Parameter 1.
 
 *Exception thrown if parameter 1 is not a valid index*
@@ -108,8 +108,8 @@ A function that adds a new integer to the end of the array.
 
 - Expands size of array if necessary to add new integer.
 
-Parameter 1: int
--
+**Parameter 1: int**
+
 Integer to be added to the end of the array.
 
 ---
@@ -120,8 +120,8 @@ Integer to be added to the end of the array.
 
 A function which intakes an index of an array and removes the integer at that index.
 
-Parameter 1: size_t
--
+**Parameter 1: size_t**
+
 Index of array element to be removed.
 
 *Exception thrown if Parameter 1 is not a valid index*
