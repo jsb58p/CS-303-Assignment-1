@@ -10,7 +10,7 @@ public:
 	void initializeArray();
 	/*initializes array using values from input file*/
 	
-	int* findNum(int) const;
+	int findNum(int, int position = 1) const;
 	/*function to find array index with matching input integer.
 	Returns array element containing input integer*/
 
