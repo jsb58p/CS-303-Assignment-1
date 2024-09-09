@@ -74,6 +74,7 @@ the index of the nth Parameter 1 value. If the value from Paramter 1 is not foun
 
 ---
 ---	
+**modifyNum**
 		int* modifyNum(size_t, int);
 
 
