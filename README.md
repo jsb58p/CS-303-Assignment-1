@@ -32,7 +32,7 @@ Below is an example of declaring an object (numArray) of type Array_Modify with 
   		Array_Modify numArray; 		//no parameter, will use "A1input.txt" by default
 
 
--In order to handle exceptions thrown by class member functions, main function should include try/catch block:
+-In order to handle out_of_range exceptions thrown by class member functions whose parameters may be invalid, main function should include try/catch block:
 
         try{
         /*this is where member functions should be called*/
