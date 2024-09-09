@@ -4,6 +4,7 @@
 2. Set up Main function
 3. Run the code
 4. Function Descriptions
+5. Examples
 
 
 # 1. Download/Copy Files
@@ -55,7 +56,8 @@ Functions can be called within the try/catch block to handle out_of_range except
 # 4. Function Descriptions
 
 		int findNum(int, int position = 1);
-	
+	A function to check if a certain integer exists in the array if the number is present return the
+index where the number is present.
 
 
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
