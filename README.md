@@ -46,7 +46,7 @@ Below is an example of declaring an object (numArray) of type Array_Modify with 
 # 3. Run the code
 
 
--After all previous steps have been completed, the created object may use the class member functions
+After all previous steps have been completed, the created object may use the class member functions
 -
 
 
