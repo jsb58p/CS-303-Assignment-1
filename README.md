@@ -57,7 +57,7 @@ Functions can be called within the try/catch block to handle out_of_range except
 
 		int findNum(int, int position = 1);
 	
--A function to check if a certain integer exists in the array. If the number is present, returns the
+A function to check if a certain integer exists in the array. If the number is present, returns the
 index where the number is present. If the number is not present, returns -1.
 
 -Parameter 1: int
