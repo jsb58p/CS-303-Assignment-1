@@ -60,11 +60,11 @@ Functions can be called within the try/catch block to handle out_of_range except
 A function to check if a certain integer exists in the array. If the number is present, returns the
 index where the number is present. If the number is not present, returns -1.
 
--Parameter 1: int
+Parameter 1: int
 -
 Integer to be searched for.
 
--Parameter 2: int
+Parameter 2: int
 -
 Integer representing the repition of the integer is being searched for. Default is 1. If there are n array elements containing the value from Parameter 1, then passing n for the second parameter will return
 
