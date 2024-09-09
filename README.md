@@ -130,4 +130,5 @@ Index of array element to be removed.
 ---
 
 # 5. Examples
-<img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
+<img width="1152" alt="1" src="https://github.com/user-attachments/assets/36416916-abdc-4c19-b6f3-a885335e083c">
+
