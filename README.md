@@ -55,7 +55,7 @@ Functions can be called within the try/catch block to handle out_of_range except
 
 # 4. Function Descriptions
 **findNum()**
-
+-
 		int findNum(int, int position = 1);
 	
 A function to check if a certain integer exists in the array. If the number is present, returns the
@@ -76,7 +76,7 @@ the index of the nth Parameter 1 value. If the value from Paramter 1 is not foun
 ---
 ---	
 **modifyNum()**
-		
+-		
 		int* modifyNum(size_t, int);
 
 A function that can modify the value of an integer when called with the index of the integer in
@@ -86,11 +86,11 @@ the array and returns a pointer to the new value and old value. Old value and ne
 Dereferencing the function when calling will return the new value. 
 
 Parameter 1: size_t
----
+-
 Index of integer being modified.
 
 Parameter 2: int
----
+-
 New integer value to replace the integer at the index provided by Parameter 1.
 
 *Exception thrown if parameter 1 is not a valid index*
@@ -98,7 +98,7 @@ New integer value to replace the integer at the index provided by Parameter 1.
 ---
 ---
 **addNum()**
-
+-
 		void addNum(int);
 
 A function that adds a new integer to the end of the array.
@@ -106,13 +106,13 @@ A function that adds a new integer to the end of the array.
 -Expands size of array if necessary to add new integer.
 
 Parameter 1: int
----
+-
 Integer to be added to the end of the array.
 
 ---
 ---
 **removeNum()**
-
+-
 	void removeNum(size_t);
 
 A function which intakes an index of an array and removes the integer at that index.
