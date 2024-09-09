@@ -48,6 +48,12 @@ Below is an example of declaring an object (numArray) of type Array_Modify with 
 
 After all previous steps have been completed, the user may use the object to access class member functions.
 -
+Functions can be called within the try/catch block to handle out_of_range exceptions.
+-
+
+-Example 1
+
+	
 
 
 <img width="1152" alt="ScreenShot1" src="https://github.com/user-attachments/assets/a8fe6124-4e57-4424-b45a-99c1b7ce0006">
