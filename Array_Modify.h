@@ -1,7 +1,6 @@
 #ifndef H_Array_Modify
 #define H_Array_Modify
-
-using namespace std;
+#include <fstream>
 
 
 class Array_Modify {
@@ -25,7 +24,7 @@ public:
 	/*Intakes index of an array and 
 	removes the integer at that index*/
 
-Array_Modify(string file) {
+Array_Modify(std::string file) {
 		fileName = file;
 		initializeArray();
 	}
@@ -33,9 +32,9 @@ Array_Modify(string file) {
 	delete[] numbers;
 }
 private:
-	fstream inputFile;
-	string fileName = "A1input.txt"; //identifier for the file being accessed and modified
-	int maxIndex; //contains the number of elements in the array (minus 1)
+	std::fstream inputFile;
+	std::string fileName = "A1input.txt"; //identifier for the file being accessed and modified
+	size_t maxIndex; //contains the number of elements in the array (minus 1)
 	int capacity = 10; //array capacity, default 10
 	int* numbers;//points to array gathered from input file
 	int numSwap[2];	//array size 2 for storing new value and old value from function modifyNum
