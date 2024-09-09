@@ -135,6 +135,6 @@ Index of array element to be removed.
 <img width="1152" alt="1" src="https://github.com/user-attachments/assets/36416916-abdc-4c19-b6f3-a885335e083c">
 **Line 8 contains a call to the function findNum(). Parameter 1 is passed to findNum() by the user. Parameter 2 defaults to the integer 1. An element containing the integer 5 occurs the first time at index 4. Therefore, the output is 4.**
 2. **Line 8 contains the same function, but now Parameter 1 is being passed an integer value (0) that does not exist in the array.**
-<img width="576" alt="findNum2" src="https://github.com/user-attachments/assets/3b7b7701-5152-4717-a474-479fc2f9ffbe">
+<img width="576" alt="findNum2" src="https://github.com/user-attachments/assets/62bb51aa-d5b3-4e56-9ee3-e55087579cb3">
 **Since the value being searched does not exist in the array, the value returned is -1**
 
