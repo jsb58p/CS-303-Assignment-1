@@ -5,10 +5,6 @@
 
 class Array_Modify {
 public:
-
-	void initializeArray();
-	/*initializes array using values from input file*/
-	
 	int findNum(int, int position = 1) const;
 	/*function to find array index with matching input integer.
 	Returns array element containing input integer*/
@@ -42,6 +38,9 @@ private:
 	int capacity = 10; //array capacity, default 10
 	int* numbers;//points to array gathered from input file
 	int numSwap[2];	//array size 2 for storing new value and old value from function modifyNum
+
+	void initializeArray();
+	/*initializes array using values from input file*/
 };
 
 #endif
