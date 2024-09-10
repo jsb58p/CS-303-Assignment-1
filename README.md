@@ -200,6 +200,7 @@ Index of array element to be removed.
 **The catch block executes, and the following output informs the user that an out of range exception has occurred.** 
 
 **The what() function on line 14 returns the error message from the function where the exception was thrown. Line 15 aborts the program.**
+
 <img width="576" alt="abort1" src="https://github.com/user-attachments/assets/17e8a30b-3939-4207-b9f4-88a33638e74b">
 
 ---
