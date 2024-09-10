@@ -153,7 +153,7 @@ Index of array element to be removed.
    **Line 9 contains the function findNum(). Parameter 1 passed by the user is a value that exists in the array. Parameter 2, passed by the user, is valid because the integer 5 exists in 2 positions in the array after executing line 8.**
 <img width="584" alt="addNumfindNum1" src="https://github.com/user-attachments/assets/8acb3014-8a66-4f05-a8a1-ff2895b4c1f4">
 
-**Returns 100, because that is the index position of the 2nd integer 5.**
+**Outputs 100 as the return value of function findNum(), because that is the index position of the 2nd integer 5.**
 
 ---
 5. **Line 8 uses function addNum() to add the integer 5 to the end of the array.**
@@ -217,7 +217,7 @@ Index of array element to be removed.
    **Line 12 uses the function findNum(), and outputs the return value, the index of the first occurance of the integer 0.**
 
    **Line 13 uses the function findNum(), and outputs the return value, the index of the second occurrance of the integer 0.**
-<img width="451" alt="allFunctions1" src="https://github.com/user-attachments/assets/be87ff43-26f8-4631-a81e-a884839f10f2">
+<img width="576" alt="allFunctions1" src="https://github.com/user-attachments/assets/be87ff43-26f8-4631-a81e-a884839f10f2">
 
 **The output from line 10 is 100. After the function addNum() adds 0 to the end of the array, and function modifyNum() modifies the first array element to hold 0, the first occurance of the integer 0 is at index 0, and the second occurrance of the integer 0 is at index 100, hence the output.**
 
