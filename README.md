@@ -70,8 +70,8 @@ Integer to be searched for.
 
 **Parameter 2: int**
 
-Integer representing the repition of the integer being searched for. Default is 1. If there are n array elements containing the value from Parameter 1, then passing n for the second parameter will return
-the index of the nth Parameter 1 value. If the value from Paramter 1 is not found, or the value passed for Parameter 2 is greater than n, then function returns -1.
+Integer representing the repitition of the integer being searched for. Default is 1. If there are *n* array elements containing the value from Parameter 1, then passing *n* for the second parameter will return
+the index of the *n*th Parameter 1 value. If the value from Paramter 1 is not found, or the value passed for Parameter 2 is greater than *n*, then function returns -1.
 
 
 *Exception thrown if Parameter 2 is outside the bounds of possibility (Parameter 2 is less than 1 or Parameter 2 is greater than the maximum size of the array).*
@@ -95,7 +95,7 @@ Index of integer being modified.
 
 New integer value to replace the integer at the index provided by Parameter 1.
 
-*Exception thrown if parameter 1 is not a valid index*
+*Exception thrown if Parameter 1 is not a valid index*
 
 ---
 ---
@@ -136,17 +136,20 @@ Index of array element to be removed.
 **Line 8 contains a call to the function findNum(). Parameter 1 is passed to findNum() by the user. Parameter 2 defaults to the integer 1. An element containing the integer 5 occurs the first time at index 4. Therefore, the output is 4.**
 
 ---
+---
 2. **Line 8 contains the function findNum(), but Parameter 1 is being passed an integer value (0) that does not exist in the array.**
 <img width="576" alt="findNum2" src="https://github.com/user-attachments/assets/3286c51c-0c77-4963-b7cf-10b93a38f8cd">
 
 **Since the value being searched does not exist in the array, the value returned is -1**
 
 ---
+---
 3. **Line 8 contains the function findNum(). Parameter 1 passed by the user is a value of an integer that exists in the array. Parameter 2, passed by the user, is invalid because the integer 5 only exists in 1 position in the array.**
 <img width="576" alt="findNum3" src="https://github.com/user-attachments/assets/3b30c2b2-76fe-44c1-9f45-a194e5efde96">
 
 **Since integer 5 only exists in one index of the array, the second index for 5 cannot be found. Therefore, the function returns -1.**
 
+---
 ---
 4. **Line 8 contains the function addNum(). Parameter 1 passed by the user is the integer to be added to the end of the array.**
 
@@ -155,6 +158,7 @@ Index of array element to be removed.
 
 **Outputs 100 as the return value of function findNum(), because that is the index position of the 2nd integer 5.**
 
+---
 ---
 5. **Line 8 uses function addNum() to add the integer 5 to the end of the array.**
    
@@ -167,6 +171,7 @@ Index of array element to be removed.
 
    **When function findNum() executes, the only integer 5 currently in the array is the result of the function addNum(). Since the array elements were shifted down as part of the function removeNum(), the integer 5 is found at index 99.**
 
+---
 ---
 6. **Line 8 uses function addNum() to add the integer 5 to the end of the array.**
 
@@ -182,6 +187,7 @@ Index of array element to be removed.
 
    **The output from line 10 is 1. After modifying the the value at index 1 to hold integer 5, the first position to hold integer 5 is at index 1.**
 
+---
 ---
 7. **Line 8 uses function addNum() to add the integer 5 to the end of the array**
 
@@ -203,6 +209,7 @@ Index of array element to be removed.
 
 <img width="576" alt="abort1" src="https://github.com/user-attachments/assets/17e8a30b-3939-4207-b9f4-88a33638e74b">
 
+---
 ---
 8. **The following example shows all functions being used together.**
 
