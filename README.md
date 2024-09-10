@@ -211,19 +211,19 @@ Index of array element to be removed.
    **Line 9 modifies the integer at index 0 to have the value 0. The previous value was 1.**
 
    **Line 10 uses the function findNum() and outputs the results. Parameter 1 is 0, the integer being searched.**
-   **Parameter 2 is 2, meaning the index of the second occurrance of the integer used as Parameter 1 will be returned.**
+   **Parameter 2 is 2, meaning the index of the second occurrence of the integer used as Parameter 1 will be returned.**
 
    **Line 11 uses the function removeNum() to remove the array element at the index passed as Parameter 1.**
 
-   **Line 12 uses the function findNum(), and outputs the return value, the index of the first occurance of the integer 0.**
+   **Line 12 uses the function findNum(), and outputs the return value, the index of the first occurence of the integer 0.**
 
-   **Line 13 uses the function findNum(), and outputs the return value, the index of the second occurrance of the integer 0.**
+   **Line 13 uses the function findNum(), and outputs the return value, the index of the second occurrence of the integer 0.**
 <img width="576" alt="allFunctions1" src="https://github.com/user-attachments/assets/be87ff43-26f8-4631-a81e-a884839f10f2">
 
-**The output from line 10 is 100. After the function addNum() adds 0 to the end of the array, and function modifyNum() modifies the first array element to hold 0, the first occurance of the integer 0 is at index 0, and the second occurrance of the integer 0 is at index 100, hence the output.**
+**The output from line 10 is 100. After the function addNum() adds 0 to the end of the array, and function modifyNum() modifies the first array element to hold 0, the first occurance of the integer 0 is at index 0, and the second occurrence of the integer 0 is at index 100, hence the output.**
 
-**The output from line 12 is 99. The function from line 11, removeNum(), removes the array element at index 0. Then, all array elements after 0 are shifted down one index. Since the 0 previously at index 0 has been removed and the second occurrance was shifted down one index, now the first occurance of 0 is at index 99.**
+**The output from line 12 is 99. The function from line 11, removeNum(), removes the array element at index 0. Then, all array elements after 0 are shifted down one index. Since the 0 previously at index 0 has been removed and the second occurrence was shifted down one index, now the first occurence of 0 is at index 99.**
 
-**The output from line 13 is -1. The function on line 13, findNum(), tries to search for the second occurance of 0. However, only one occurance exists after line 11 executes. Therefore, the second occurance cannot be found and the function returns -1.**
+**The output from line 13 is -1. The function on line 13, findNum(), tries to search for the second occurence of 0. However, only one occurence exists after line 11 executes. Therefore, the second occurence cannot be found and the function returns -1.**
 
 	
