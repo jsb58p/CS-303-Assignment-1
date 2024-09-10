@@ -172,7 +172,7 @@ Index of array element to be removed.
 
    **Line 9 uses the function modifyNum() and outputs the returned value. Parameter 1 is passed by the user and is the index of the array to be modified.**
 
-   **The subscript is [1] so the value returned will be the old integer value at that index.**
+   **The subscript is [1], so the value returned will be the old integer value at that index.**
 
    **Line 10 uses the function findNum() to output the index of the first integer 5 in the array.**
 <img width="576" alt="addNummodifyNumfindNum1" src="https://github.com/user-attachments/assets/5513093c-e565-49b7-8017-4c59920b949c">
@@ -182,5 +182,47 @@ Index of array element to be removed.
 
    **The output from line 10 is 1. After modifying the the value at index 1 to hold integer 5, the first position to hold integer 5 is at index 1.**
 
+---
+7. **Line 8 uses function addNum() to add the integer 5 to the end of the array**
+
+   **Line 9 uses the function modifyNum() and outputs the returned value. Parameter 1 is passed by the user and is the index of the array to be modified.**
+
+   **The subscript is [0], so the value returned will be the new integer value at that index**
+
+    **Line 10 uses the function removeNum(). Parameter 1 passed by the user is the index whose element is to be removed.**
+    **However, in this case, Parameter 1 is not in the index range.**
+<img width="576" alt="addNummodifyNumremoveNum1" src="https://github.com/user-attachments/assets/fe36cdc8-d76f-4350-9ec7-91bdd719f78e">
+
+**The output from line 9 is 5. This is the old value of the element at the array index passed as Parameter 1 in the function modifyNum()**
+
+**When line 10 executes, an exception thrown in the function removeNum(). Because Parameter 1 was not in range, the function executed code to throw an exception.**
+
+**The catch block executes, and the following output informs the user that an out of range exception has occurred.** 
+
+**The what() function on line 14 returns the error message from the function where the exception was thrown. Line 15 aborts the program.**
+<img width="576" alt="abort1" src="https://github.com/user-attachments/assets/17e8a30b-3939-4207-b9f4-88a33638e74b">
+
+---
+8. **The following example shows all functions being used together.**
+
+   **Line 8 uses function addNum() to add the integer 0 to the end of the array**
+
+   **Line 9 modifies the integer at index 0 to have the value 0. The previous value was 1.**
+
+   **Line 10 uses the function findNum() and outputs the results. Parameter 1 is 0, the integer being searched.**
+   **Parameter 2 is 2, meaning the index of the second occurrance of the integer used as Parameter 1 will be returned.**
+
+   **Line 11 uses the function removeNum() to remove the array element at the index passed as Parameter 1.**
+
+   **Line 12 uses the function findNum(), and outputs the return value, the index of the first occurance of the integer 0.**
+
+   **Line 13 uses the function findNum(), and outputs the return value, the index of the second occurrance of the integer 0.**
+<img width="451" alt="allFunctions1" src="https://github.com/user-attachments/assets/be87ff43-26f8-4631-a81e-a884839f10f2">
+
+**The output from line 10 is 100. After the function addNum() adds 0 to the end of the array, and function modifyNum() modifies the first array element to hold 0, the first occurance of the integer 0 is at index 0, and the second occurrance of the integer 0 is at index 100, hence the output.**
+
+**The output from line 12 is 99. The function from line 11, removeNum(), removes the array element at index 0. Then, all array elements after 0 are shifted down one index. Since the 0 previously at index 0 has been removed and the second occurrance was shifted down one index, now the first occurance of 0 is at index 99.**
+
+**The output from line 13 is -1. The function on line 13, findNum(), tries to search for the second occurance of 0. However, only one occurance exists after line 11 executes. Therefore, the second occurance cannot be found and the function returns -1.**
 
 	
