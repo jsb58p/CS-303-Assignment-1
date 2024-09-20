@@ -1,4 +1,5 @@
 #include "Array_Modify.h"
+#include <iostream>
 
 void Array_Modify::initializeArray() {
 	/*initialzing variables and opening file*/
@@ -43,9 +44,17 @@ void Array_Modify::initializeArray() {
 }
 
 int Array_Modify::findNum(int integer, int position) const {
-    if (position<1 || position>maxIndex) {		//exception thrown if "position" is not possible in the array
-		throw std::out_of_range("In function findNum, the value of position is out of range."); 
+	try {
+		if (position<1 || position>maxIndex) {		//exception thrown if "position" is not possible in the array
+			throw std::out_of_range("In function findNum, the value of position is out of range.");
+		}
 	}
+	catch (std::out_of_range& ex) {
+		std::cerr << "Out of range exception has ocurred" << std::endl;
+		std::cerr << ex.what() << std::endl;
+		abort();
+	}
+    
 	int numPosition = 0;	//counts number of times the entered integer has been found
 	for (int i = 0; i <= maxIndex; i++) {		//iterates through array
 		if (numbers[i] == integer) {		//detects when the value of the current array element is equal to the integer being searched
@@ -60,9 +69,17 @@ int Array_Modify::findNum(int integer, int position) const {
 }
 
 int* Array_Modify::modifyNum(size_t index, int newValue) {
-	if (index<0 || index>maxIndex) {	//exception thrown if "index" is not a valid array index
-		throw std::out_of_range("In function modifyNum, the value of index is out of range.");
+	try {
+		if (index<0 || index>maxIndex) {	//exception thrown if "index" is not a valid array index
+			throw std::out_of_range("In function modifyNum, the value of index is out of range.");
+		}
 	}
+	catch (std::out_of_range& ex) {
+		std::cerr << "Out of range exception has ocurred" << std::endl;
+		std::cerr << ex.what() << std::endl;
+		abort();
+	}
+	
 	numSwap[0] = newValue;			//first element contains new value
 	numSwap[1] = numbers[index];		//second element contains old value
 	numbers[index] = newValue; 		//assigns new value to the chosen array element
@@ -87,8 +104,15 @@ void Array_Modify::addNum(int numAdded) {
 
 
 void Array_Modify::removeNum(size_t index) {
-	if (index<0 || index>maxIndex) {	//exception thrown if "index" is not a valid array index
-		throw std::out_of_range("In function removeNum, the value of index is out of range.");
+	try {
+		if (index<0 || index>maxIndex) {	//exception thrown if "index" is not a valid array index
+			throw std::out_of_range("In function removeNum, the value of index is out of range.");
+		}
+	}
+	catch (std::out_of_range& ex) {
+		std::cerr << "Out of range exception has ocurred" << std::endl;
+		std::cerr << ex.what() << std::endl;
+		abort();
 	}
 	while (index <= maxIndex) {
 		numbers[index] = numbers[index + 1];	//shifts array elements down one index, starting with the one being removed
