@@ -37,17 +37,6 @@ Below is an example of declaring an object (numArray) of type Array_Modify with 
   		Array_Modify numArray; 		//no parameter, will use "A1input.txt" by default
 
 
-- In order to handle out_of_range exceptions thrown by class member functions whose parameters may be invalid, main function should include try/catch block:
-
-        try{
-        /*this is where member functions should be called*/
-        }
-        catch(std::out_of_range& ex){
-        std::cerr << "Out of range exception has ocurred" << std::endl;
-		std::cerr << ex.what() << std::endl;
-		abort();
-        }
-
 # 3. Run the code
 
 
